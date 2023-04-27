@@ -1,4 +1,5 @@
 export DOCKER_IMAGE ?= cloudposse/$(APP)
+export TEST=1
 export DOCKER_TAG ?= dev
 export DOCKER_IMAGE_NAME ?= $(DOCKER_IMAGE):$(DOCKER_TAG)
 export DOCKER_BUILD_FLAGS =
